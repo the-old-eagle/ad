@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>广告</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="ADcard">
+        <div>
+          <div class="card-top">
+            <span class="letter">A</span><span class="cardTitle">外场</span
+            ><span class="subTitle part-a-color">新·品鉴</span>
+          </div>
+          <div class="card-button">
+            <div class="line part-a-color"></div>
+            <p class="introduction">
+              展示新品车型、核心零部件及先进技术，了解江铃产品的品质及技术深度。
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="card-top">
+            <span class="letter">B</span><span class="cardTitle">前厅</span
+            ><span class="subTitle part-b-color">新·持以恒</span>
+          </div>
+          <div class="card-button">
+            <div class="line part-b-color"></div>
+            <p class="introduction">
+              守初心，持恒心，先进个人团队展览，领略江铃人勤耕研发、笃行致远的精神。
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="card-top">
+            <span class="letter">C</span><span class="cardTitle">中厅</span
+            ><span class="subTitle part-c-color">新·驭未来</span>
+          </div>
+          <div class="card-button">
+            <div class="line part-c-color"></div>
+            <p class="introduction">
+              颁奖典礼及科技创新论坛举办地址，科技创新推动高质量发展是企业未来转型升级的关键变量。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<style>
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    padding: 10px;
+  }
+  .ADcard {
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 440px;
+  }
+  .card-top,
+  .card-button {
+    display: flex;
+  }
+  .card-top {
+    height: 30px;
+    align-items: center;
+  }
+  .card-button {
+    margin-bottom: 40px;
+  }
+  .letter {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
+  .cardTitle {
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 20px;
+  }
+  .subTitle {
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+  }
+  .line {
+    margin-top: 16px;
+    margin-left: 6px;
+    width: 20px;
+    border-top: 20px solid;
+    margin-right: 30px;
+    border-top-width: 6px;
+  }
+  .part-a-color {
+    color: rgb(74, 208, 199);
+  }
+  .part-b-color {
+    color: rgb(69, 145, 214);
+  }
+  .part-c-color {
+    color: rgb(255, 210, 28);
+  }
+  .introduction {
+    margin-top: 10px;
+    color: gray;
+    font-size: 14px;
+  }
+</style>
