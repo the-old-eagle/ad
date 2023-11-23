@@ -3,7 +3,7 @@
   width: 1190px;
   margin: 0 auto;
 }
-/* 顶部导航条start */
+/* #region顶部导航条start */
 .topbar {
   height: 30px;
   background-color: #ececec;
@@ -47,9 +47,9 @@
 .topbar_right .list li:last-child a {
   padding-right: 0;
 }
-/* 顶部导航条end */
+/* #endregion顶部导航条end */
 
-/* 头部start */
+/* #region头部start */
 .header .container {
   height: 120px;
 }
@@ -77,4 +77,31 @@
   cursor: pointer;
   vertical-align: top;
 }
-/* 头部end */
+/* #endregion头部end */
+
+/* #region主导航start */
+.main-nav {
+  height: 48px;
+  border-bottom: 1px solid #dd302d;
+}
+.all-types {
+  width: 190px;
+  height: 48px;
+  line-height: 48px;
+  background: #dd302d;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.main-nav-list li {
+  float: left;
+  height: 48px;
+  line-height: 48px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+.main-nav-list li:last-child {
+  padding: 0;
+}
+/* #endregion主导航end */
