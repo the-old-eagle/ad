@@ -50,7 +50,7 @@
 /* #endregion顶部导航条end */
 
 /* #region头部start */
-.header .container {
+.header {
   height: 120px;
 }
 .logo {
@@ -125,4 +125,10 @@
   font-weight: 500;
   padding-left: 16px;
 }
+.main-content .banner {
+  width: 690px;
+  height: 458px;
+  margin: 0 10px;
+}
+
 /* #regionend主要内容区end */
