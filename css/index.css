@@ -71,7 +71,7 @@
   height: 36px;
   background: #dd302d;
   border: 1px solid rgba(221, 48, 45, 1);
-  background-image: url("../images/serch_icon.png");
+  background-image: url("/images/serch_icon.png");
   background-repeat: no-repeat;
   background-position: 28px 6px;
   cursor: pointer;
