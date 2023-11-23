@@ -48,3 +48,33 @@
   padding-right: 0;
 }
 /* 顶部导航条end */
+
+/* 头部start */
+.header .container {
+  height: 120px;
+}
+.logo {
+  width: 190px;
+  height: 120px;
+}
+.search form {
+  margin-top: 42px;
+  font-size: 0;
+}
+.search form input {
+  width: 508px;
+  height: 34px;
+  border: 1px solid rgba(221, 48, 45, 1);
+}
+.search form button {
+  width: 80px;
+  height: 36px;
+  background: #dd302d;
+  border: 1px solid rgba(221, 48, 45, 1);
+  background-image: url("../images/serch_icon.png");
+  background-repeat: no-repeat;
+  background-position: 28px 6px;
+  cursor: pointer;
+  vertical-align: top;
+}
+/* 头部end */
