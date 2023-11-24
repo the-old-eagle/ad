@@ -125,10 +125,44 @@
   font-weight: 500;
   padding-left: 16px;
 }
+/* #endregion主要内容区end */
+
+/* #region主要内容区中间start */
 .main-content .banner {
   width: 690px;
   height: 458px;
   margin: 0 10px;
 }
 
-/* #regionend主要内容区end */
+/* #endregion主要内容区中间end */
+
+/* #regionstart主要内容区右边start */
+.slide-right {
+  width: 290px;
+  height: 458px;
+}
+.slide-right .news {
+  width: 290px;
+  height: 158px;
+  padding: 0 14px;
+  border: 1px solid rgba(217, 217, 217, 1);
+}
+.slide-right .title {
+  margin-top: 15px;
+}
+.slide-right .news span {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 14px;
+  font-weight: 400;
+  float: left;
+}
+/* .slide-right .news a {
+  float: right;
+} */
+/* .slide-right .news ul {
+  float: left;
+} */
+/* #endregion主要内容区右边end */
