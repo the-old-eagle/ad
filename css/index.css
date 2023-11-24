@@ -147,8 +147,9 @@
   padding: 0 14px;
   border: 1px solid rgba(217, 217, 217, 1);
 }
-.slide-right .title {
+.slide-right .news .title {
   margin-top: 15px;
+  margin-bottom: 8px;
 }
 .slide-right .news span {
   font-family: PingFangSC-Regular;
@@ -159,10 +160,17 @@
   font-weight: 400;
   float: left;
 }
-/* .slide-right .news a {
-  float: right;
-} */
-/* .slide-right .news ul {
-  float: left;
-} */
+.slide-right .msg-list {
+}
+.slide-right li {
+  width: 262px;
+  height: 14px;
+  font-family: PingFangSC-Medium;
+  font-size: 12px;
+  color: #666666;
+  letter-spacing: 0;
+  line-height: 14px;
+  font-weight: 500;
+  margin: 12px 0;
+}
 /* #endregion主要内容区右边end */
